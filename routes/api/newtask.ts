@@ -3,8 +3,8 @@ import { FreshContext } from "$fresh/server.ts";
 import twilio from "npm:twilio";
 
 const accountSid = Deno.env.get("TWILIO_ACCOUNT_SID");
-const authToken = Deno.env.get("2a9fdef359703034763b9029e37ca7f2");
-const workspaceSid = Deno.env.get("WS435c1a55a4419a152d823634e07eb375");
+const authToken = Deno.env.get("TWILIO_AUTH_TOKEN");
+const workspaceSid = Deno.env.get("TWILIO_WORKSPACE_ID");
 const assignToAnyoneWorkflow = "WW2998cfb7095cfe11322e4a98eafeb025";
 
 const client = twilio(accountSid, authToken);
