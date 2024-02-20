@@ -2,9 +2,9 @@ import { FreshContext } from "$fresh/server.ts";
 
 import twilio from "npm:twilio";
 
-const accountSid = "ACbd5894a9da4ac0a3435b67dc25fd0839";
-const authToken = "66decf82a9df3e86c8522f1c83edabdf";
-const workspaceSid = "WS435c1a55a4419a152d823634e07eb375";
+const accountSid = "xx";
+const authToken = "xx";
+const workspaceSid = "xx";
 const assignToAnyoneWorkflow = "WW2998cfb7095cfe11322e4a98eafeb025";
 
 const client = twilio(accountSid, authToken);

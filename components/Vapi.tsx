@@ -1,7 +1,7 @@
 import Vapi from '../web/vapi.ts';
 import { useState } from 'preact/hooks';
 
-const vapi = new Vapi('e1bfa967-1e29-438e-a285-acf305c01d7b');
+const vapi = new Vapi('xx');
 
 let customerIssue: any[] = [];
 
