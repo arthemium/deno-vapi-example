@@ -1,8 +1,7 @@
 import Vapi from '../web/vapi.ts';
 import { useState } from 'preact/hooks';
 
-const vapiKey = Deno.env.get("VAPI_KEY");
-const vapi = new Vapi(vapiKey);
+const vapi = new Vapi("e1bfa967-1e29-438e-a285-acf305c01d7b");
 
 let customerIssue: any[] = [];
 
